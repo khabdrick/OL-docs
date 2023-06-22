@@ -21,9 +21,8 @@ jobs:
 
      - name: Install dependencies
        run: |
-           cd docs
            pip install -r requirements.txt
      - name: Run linkcheck
        run: |
-          cd docs
+          cd _build/html
           make linkcheck
