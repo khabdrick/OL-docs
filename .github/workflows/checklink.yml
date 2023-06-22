@@ -24,5 +24,4 @@ jobs:
            pip install -r requirements.txt
      - name: Run linkcheck
        run: |
-          cd _build/html
           make linkcheck
