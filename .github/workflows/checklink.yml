@@ -24,4 +24,5 @@ jobs:
            pip install -r docs/requirements.txt
      - name: Run linkcheck
        run: |
+          cd docs
           make linkcheck
