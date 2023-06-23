@@ -45,6 +45,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
+linkcheck_ignore = [r'http://internetarchive.github.com/read_api_extras/readapi_automator.js']
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

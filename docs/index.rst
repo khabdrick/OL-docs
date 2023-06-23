@@ -37,6 +37,8 @@ Here you will also be provided with list of Frequently Asked Questions about Ope
    ClientLibraries/index
    Community
    Partners
+   faq
+   volunteering
 
 
 

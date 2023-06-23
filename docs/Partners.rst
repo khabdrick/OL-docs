@@ -4,8 +4,8 @@ Partners API (Formerly "Read" API)
 Partners API, formerly the "Read" API, fetches one or more books by library identifiers (ISBNs, OCLC, LCCNs). The Open Library Read API is intended to make it easy to turn book identifier information (ISBN, LCCN etc.) into direct links to Open Library's online-readable or borrowable books.
 The Read API is inspired by the `Hathi Trust Bibliographic API <https://www.hathitrust.org/bib_api>`_ and is intended to be compatible with it. The Read API results extend the Hathi API in several ways:
 
-* The results may offer links to borrowable books, available through the Open Library `lending program <http://openlibrary.org/borrow/about>`_.
-* Returned items may include readable matches for different editions of the `same work <http://openlibrary.org/help/faq#works>`_. 
+* The results may offer links to borrowable books, available through the Open Library `lending program <https://openlibrary.org/help/faq/borrow>`_.
+* Returned items may include readable matches for different editions of the same work. 
 * Results also include information from the `Data API(needs update) <http://openlibrary.org/dev/docs/api/books#data>`_- everything Open Library knows about a book!
 
 Demo and Simple Sample Code

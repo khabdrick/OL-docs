@@ -37,4 +37,7 @@ Questions
 We encourage developers to ask questions by opening issues on `Github <https://github.com/internetarchive/openlibrary/issues>`_ and on our `gitter <https://gitter.im/theopenlibrary/Lobby>`_ chat channel.
 
 
+.. toctree::
+   :hidden:
 
+   books-api
