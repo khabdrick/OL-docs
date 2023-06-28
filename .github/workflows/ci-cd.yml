@@ -1,0 +1,45 @@
+name: Python CI Workflow
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
+
+    - name: Run Lighthouse CI
+      uses: treosh/lighthouse-ci-action@v2
+      with:
+        configPath: "./lighthouserc.json"
+        temporaryPublicStorage: true
+
+    - name: make the sphinx docs
+        run: |
+          make clean 
+          make html
+
+    - name: Init new repo in dist folder and commit generated files
+        run: |
+          cd docs/_build/html/
+          git init
+          touch .nojekyll
+          git add -A
+          git config --local user.email "muhamzyali@gmail.com"
+          git config --local user.name "Muhammed Ali"
+          git commit -m 'deploy'
+
+     - name: Force push to destination branch
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: gh-pages
+          force: true
+          directory: ./docs/_build/html
