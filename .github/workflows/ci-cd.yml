@@ -14,6 +14,11 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
+    - name: make the sphinx docs
+      run: |
+        cd docs
+        make clean 
+        make html
 
     - name: Run Lighthouse CI
       uses: treosh/lighthouse-ci-action@v2
@@ -21,11 +26,7 @@ jobs:
         configPath: "./lighthouserc.json"
         temporaryPublicStorage: true
 
-    - name: make the sphinx docs
-      run: |
-        cd docs
-        make clean 
-        make html
+
 
     - name: Init new repo in dist folder and commit generated files
       run: |
