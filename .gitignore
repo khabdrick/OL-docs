@@ -1,2 +1,2 @@
 env
-docs/_build/linkcheck
+docs/_build/**
