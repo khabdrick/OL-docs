@@ -27,7 +27,6 @@ jobs:
     - name: make the sphinx docs
       run: |
         cd docs/
-        make clean 
         make html
 
     - name: Run Lighthouse CI
