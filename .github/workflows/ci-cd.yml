@@ -23,6 +23,7 @@ jobs:
 
     - name: make the sphinx docs
         run: |
+          cd docs
           make clean 
           make html
 
