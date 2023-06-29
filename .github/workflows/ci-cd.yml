@@ -27,6 +27,9 @@ jobs:
         run: |
           cd docs/
           pip install -r requirements.txt
+      # - name: Set permissions for docs/_build directory
+      #   run: chmod -R 777 docs
+
 
       - name: make the sphinx docs
         run: |
