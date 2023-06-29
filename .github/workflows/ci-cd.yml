@@ -41,12 +41,14 @@ jobs:
       run: |
         cd docs/_build/html/
         git init
+        git branch gh-pages
+        git checkout gh-pages
         touch .nojekyll
         git add -A
         git config --global user.email "muhamzyali@gmail.com"
         git config --global user.name "Muhammed Ali"
         git commit -m 'deploy'
-          git push --force origin gh-pages
+        git push --force origin gh-pages
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
     # - name: Force push to destination branch
