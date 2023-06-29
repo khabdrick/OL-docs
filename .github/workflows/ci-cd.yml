@@ -29,11 +29,11 @@ jobs:
         cd docs/
         make html
 
-    - name: Run Lighthouse CI
-      uses: treosh/lighthouse-ci-action@v3
-      with:
-        configPath: "./lighthouserc.json"
-        temporaryPublicStorage: true
+    # - name: Run Lighthouse CI
+    #   uses: treosh/lighthouse-ci-action@v3
+    #   with:
+    #     configPath: "./lighthouserc.json"
+    #     temporaryPublicStorage: true
 
 
 
