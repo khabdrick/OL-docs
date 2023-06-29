@@ -130,8 +130,7 @@ Items are sorted first by match (‘exact’, ‘similar’) then by availabilit
 </ul>
 <p>The return value is a hash, with each successful <code class="docutils literal notranslate"><span class="pre">&lt;request&gt;</span></code> as keys. The hash values are the same as the single-request format. If a request doesn’t match, it won’t appear as a result in the hash.
 If a <code class="docutils literal notranslate"><span class="pre">&lt;request&gt;</span></code> starts with ‘id:&lt;key&gt;;’, then &lt;key&gt; is used instead of the full <code class="docutils literal notranslate"><span class="pre">&lt;request&gt;</span></code> string as the key for that hash value.</p>
-<p>For example:
-<a href="#id1"><span class="problematic" id="id2">``</span></a>&lt;<a class="reference external" href="http://openlibrary.org/api/volumes/brief/json/id:1;lccn">http://openlibrary.org/api/volumes/brief/json/id:1;lccn</a>:50006784|olid:OL6179000M;lccn:55011330&gt;``_ will return a hash with two keys:</p>
+<p>For example: <a class="reference external" href="http://openlibrary.org/api/volumes/brief/json/id:1;lccn:50006784|olid:OL6179000M;lccn:55011330">http://openlibrary.org/api/volumes/brief/json/id:1;lccn:50006784|olid:OL6179000M;lccn:55011330</a> will return a hash with two keys:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span>{
     &#39;1&#39;: ...
     &#39;olid:OL6179000M;lccn:55011330&#39;: ...

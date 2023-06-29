@@ -123,8 +123,7 @@ The URL format is ``http://openlibrary.org/api/volumes/brief/json/<request-list>
 The return value is a hash, with each successful ``<request>`` as keys. The hash values are the same as the single-request format. If a request doesn't match, it won't appear as a result in the hash.
 If a ``<request>`` starts with 'id:<key>;', then <key> is used instead of the full ``<request>`` string as the key for that hash value.
 
-For example: 
-``<http://openlibrary.org/api/volumes/brief/json/id:1;lccn:50006784|olid:OL6179000M;lccn:55011330>``_ will return a hash with two keys:
+For example: `<http://openlibrary.org/api/volumes/brief/json/id:1;lccn:50006784|olid:OL6179000M;lccn:55011330>`_ will return a hash with two keys:
 
 .. code-block:: json
 
