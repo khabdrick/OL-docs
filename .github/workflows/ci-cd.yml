@@ -14,21 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
 
-      - uses: ammaraskar/sphinx-action@master
-        with:
-          docs-folder: "docs/"
+      # - uses: ammaraskar/sphinx-action@master
+      #   with:
+      #     docs-folder: "docs/"
+      - uses: actions/setup-python@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2.2.1
-        with:
-          python-version: 3.9
+      # - name: Set up Python
+      #   uses: actions/setup-python@v2.2.1
+      #   with:
+      #     python-version: 3.9
 
       - name: Install dependencies
         run: |
           cd docs/
           pip install -r requirements.txt
-      # - name: Set permissions for docs/_build directory
-      #   run: chmod -R 777 docs
+      - name: Set permissions for docs directory
+        run: chmod -R 777 docs
 
 
       - name: make the sphinx docs
