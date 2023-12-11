@@ -22,8 +22,24 @@ Get Involved
 Whether you're a book lover, a tech enthusiast, or someone passionate about preserving knowledge, there are numerous ways to get involved.
 
 1. **Volunteer:** Contribute your time and skills to help with data entry, cataloging, and other essential tasks. Every contribution counts!
-2. **Donate:** `Support Open Library financially <https://archive.org/donate>`_ to ensure the sustainability and growth of this invaluable resource.
+2. **Donate:** Support Open Library financially to ensure the sustainability and growth of this invaluable resource.
+3. **Spread the Word:** Tell your friends, family, and colleagues about Open Library. The more people who know, the stronger our community becomes.
 
+Featured Contributors
+----------------------
+
+Celebrate the individuals and organizations that make Open Library thrive. Learn about their contributions and inspiring stories.
+
+- **Spotlight on Contributors:** Discover the amazing people who are shaping the future of Open Library.
+- **Community Projects:** Explore ongoing projects and collaborations within the Open Library community.
+
+Latest Updates
+---------------
+
+Stay informed about the latest features, improvements, and initiatives at Open Library. Our community is continually evolving, and you don't want to miss out!
+
+- **Release Notes:** Check out the latest updates and improvements to the Open Library platform.
+- **Community Spotlights:** Learn about notable achievements and contributions from our community members.
 
 Collaborate and Learn
 -----------------------
@@ -32,6 +48,9 @@ Connect with like-minded individuals, exchange ideas, and learn from each other.
 
 - **Book Clubs:** Join or start a book club within the community to discuss your favorite reads and discover new ones.
 - **Tech Talks:** Engage with fellow tech enthusiasts in discussions about the latest advancements in digital libraries and technology.
+
+
+Happy reading! :book: :sparkles:
 
 .. _@OpenLibrary: https://twitter.com/OpenLibrary
 .. _Open Library Gitter: https://gitter.im/theopenlibrary/Lobby
