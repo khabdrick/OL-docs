@@ -6,8 +6,11 @@
 Welcome to Open Library Developer Portal!
 ======================================================
 Welcome to the developer hub of Open Library. This page has information about the following:
+
 1. Resources that will help you get started accessing data from Open Library platform.
+
 2. Resources that will help you integrating with Open Library platform.
+
 3. How you can contribute to Open Library community.
 
 
@@ -22,12 +25,12 @@ We maintain an Official (Python) Client Library for accessing data and writing b
 
 :doc:`Partners <Partners>`
 --------------------------------------------------
-Are you a library, publisher, or book vendor trying to integrate your catalog with Open Library previews, lending, data, or book covers? Check out our partner resources.
+Are you a library, publisher, or book vendor trying to integrate your catalog with Open Library previews, lending, data, or book covers? Check out our :doc:`partner resources <Partners>`.
 
 :doc:`Community <Community>`
 --------------------------------------------------
 OpenLibrary.org is an open source project. If you'd like to contribute as on Open Library developer, 
-please visit our CONTRIBUTING guide on Github and explore our volunteer page. You may also learn more about the technologies powering the service.
+please visit our `CONTRIBUTING guide <https://github.com/internetarchive/openlibrary/blob/master/CONTRIBUTING.md>`_ on Github and explore our volunteer page. You may also learn more about the technologies powering the service.
 Here you will also be provided with list of Frequently Asked Questions about Open Library.
 
 .. toctree::
