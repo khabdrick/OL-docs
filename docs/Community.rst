@@ -23,15 +23,3 @@ Whether you're a book lover, a tech enthusiast, or someone passionate about pres
 
 1. **Volunteer:** Contribute your time and skills to help with data entry, cataloging, and other essential tasks. Every contribution counts!
 2. **Donate:** `Support Open Library financially <https://archive.org/donate>`_ to ensure the sustainability and growth of this invaluable resource.
-
-
-Collaborate and Learn
------------------------
-
-Connect with like-minded individuals, exchange ideas, and learn from each other. The Open Library community is a space for collaboration and knowledge sharing.
-
-- **Book Clubs:** Join or start a book club within the community to discuss your favorite reads and discover new ones.
-- **Tech Talks:** Engage with fellow tech enthusiasts in discussions about the latest advancements in digital libraries and technology.
-
-.. _@OpenLibrary: https://twitter.com/OpenLibrary
-.. _Open Library Gitter: https://gitter.im/theopenlibrary/Lobby
